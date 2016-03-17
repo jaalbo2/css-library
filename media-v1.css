@@ -1,3 +1,8 @@
+/*
+	James Bordine II - CSS Library Media
+	DESC: This file handles basic style updating depending on screen size. It
+	currently focuses on font size only.
+*/
 @media screen and (min-width: 600px){
 	body{
 		font-size: 1.125em; /* 18px */

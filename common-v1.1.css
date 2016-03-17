@@ -35,9 +35,6 @@ ol{
 span, a{
 	display: inline-block;
 }
-hr{
-	margin: 10px 0;
-}
 
 /* Common Element Styles */
 
@@ -94,6 +91,12 @@ img{
 	max-width: 100%;
 	border: none;
 	text-decoration: none;
+}
+hr{
+	margin: 10px 0;
+}
+th, label{
+	font-weight: bold;
 }
 
 /* Common Classes */

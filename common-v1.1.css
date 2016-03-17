@@ -211,9 +211,15 @@ hr{
 	display: table;
 	margin: 0 auto;
 }
-
-/* No Select Emitted - Add This */
-
+.noselect{
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
 .table{
 	display: table;
 }
@@ -225,4 +231,10 @@ hr{
 }
 .lsn{
 	list-style: none;
+}
+.pushup{
+	margin-top: 20px;
+}
+.pushdown{
+	margin-bottom: 20px;
 }

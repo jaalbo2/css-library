@@ -86,6 +86,9 @@ noscript{
 	padding: 5px 0;
 	text-align: center;
 }
+th, label{
+	font-weight: bold;
+}
 img{
 	display: inline-block;
 	max-width: 100%;
@@ -94,9 +97,6 @@ img{
 }
 hr{
 	margin: 10px 0;
-}
-th, label{
-	font-weight: bold;
 }
 
 /* Common Classes */
@@ -197,10 +197,15 @@ th, label{
 
 /* Sort Later */
 
-.q960{ /* Revise to 1366 (1280) layout. */
+.q960, .q1280{
 	width: 93.75%;
-	max-width: 960px;
 	margin: 0 auto;
+}
+.q960{
+	max-width: 960px;
+}
+.q1280{
+	max-width: 1280px;
 }
 .cblock{
 	display: table;

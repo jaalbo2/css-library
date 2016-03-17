@@ -1,0 +1,217 @@
+/*
+	James Bordine II - CSS Library Restore & Common
+	DESC: This file was produced to provide quick access to commonly used styles. It
+	is meant to be incorporated after the cssreset.
+	
+	PN: <output> Element : Using oninput attribute on a form will send output to this element.
+*/
+
+/* Element Restoration */
+
+html, body, div, p, br, header, footer, section, object, embed, iframe, h1, h2, h3, h4, h5, h6, pre, ol, ul, li, form, article, aside, nav, address, output, hr, main, noscript, fieldset{
+	display: block;
+}
+table{
+	display: table;
+}
+caption{
+	display: table-caption;
+}
+tbody{
+	display: table-row-group;
+}
+tr{
+	display: table-row;
+}
+th, td{
+	display: table-cell;
+}
+ul{
+	list-style: disc outside none;
+}
+ol{
+	list-style: decimal outside none;
+}
+span, a{
+	display: inline-block;
+}
+
+/* Common Element Styles */
+
+html, body{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+}
+body{
+	font-size: 1em; /* `em` is responsive friendly. (16px) */
+	/* line-height: 16px; */
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+h1{
+	font-size: 2em; /* 32px */
+	/* line-height: 32px; */
+}
+h2{
+	font-size: 1.5em; /* 24px */
+	/* line-height: 24px; */
+}
+h3{
+	font-size: 1.25em; /* 20px */
+	/* line-height: 20px; */
+}
+h4{
+	font-size: 1em; /* 16px */
+	/* line-height: 16px; */
+}
+h5{
+	font-size: .75em; /* 12px */
+	/* line-height: 12px; */
+}
+h6{
+	font-size: .5em; /* 8px */
+	/* line-height: 8px; */
+}
+p{
+	margin: 10px 0;
+}
+noscript{
+	width: 100%;
+	padding: 5px 0;
+	text-align: center;
+}
+img{
+	display: inline-block;
+	max-width: 100%;
+	border: none;
+	text-decoration: none;
+}
+
+/* Common Classes */
+
+.inbl{
+	display: inline-block;
+}
+.embold{
+	font-weight: bold;
+}
+.emitalic{
+	font-style: italic;
+}
+.emunderline{
+	text-decoration: underline;
+}
+.emred{
+	color: #F00;
+}
+.emsmall{
+	font-size: .75em;
+}
+.nomargin{
+	margin: 0;
+}
+.nopadding{
+	padding: 0;
+}
+.notopmargin{
+	margin-top: 0;
+}
+.nobottommargin{
+	margin-bottom: 0;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.cleft{
+	clear: left;
+}
+.cright{
+	clear: right;
+}
+.cboth{
+	clear: both;
+}
+.clearfix:after{
+	content: '';
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.vtopchildren > *{
+	vertical-align: top;
+}
+.vmiddlechildren > *{
+	vertical-align: middle;
+}
+.vbottomchildren > *{
+	vertical-align: bottom;
+}
+.vtop{
+	vertical-align: top;
+}
+.vmiddle{
+	vertical-align: middle;
+}
+.vbottom{
+	vertical-align: bottom;
+}
+.button{
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	overflow: hidden;
+}
+.centeralign{
+	text-align: center;
+}
+.leftalign{
+	text-align: left;
+}
+.rightalign{
+	text-align: right;
+}
+.margincenter{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Sort Later */
+
+.q960{ /* Revise to 1366 (1280) layout. */
+	width: 93.75%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.cblock{
+	display: table;
+	margin: 0 auto;
+}
+
+/* No Select Emitted - Add This */
+
+.table{
+	display: table;
+}
+.tr{
+	display: table-row;
+}
+.tc{
+	display: table-cell;
+}
+.lsn{
+	list-style: none;
+}

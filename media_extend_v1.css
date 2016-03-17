@@ -1,3 +1,8 @@
+/*
+	James Bordine II - CSS Library Media Queries (Extended)
+	DESC: This library is meant to extend text responsiveness for screens with a width beyond
+	2100px.
+*/
 @media screen and (min-width: 2100px){
 	body{
 		font-size: 1.75em; /* 28px */

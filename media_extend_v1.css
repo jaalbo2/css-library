@@ -1,0 +1,30 @@
+@media screen and (min-width: 2100px){
+	body{
+		font-size: 1.75em; /* 28px */
+		/* line-height: 28px; */
+	}
+}
+@media screen and (min-width: 2400px){
+	body{
+		font-size: 1.875em; /* 30px */
+		/* line-height: 30px; */
+	}
+}
+@media screen and (min-width: 2700px){
+	body{
+		font-size: 2em; /* 32px */
+		/* line-height: 32px; */
+	}
+}
+@media screen and (min-width: 3000px){
+	body{
+		font-size: 2.125em; /* 34px */
+		/* line-height: 34px; */
+	}
+}
+@media screen and (min-width: 3300px){
+	body{
+		font-size: 2.25em; /* 36px */
+		/* line-height: 36px; */
+	}
+}

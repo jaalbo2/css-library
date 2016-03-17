@@ -1,0 +1,43 @@
+/* 
+	CSS Library Reset - James Bordine II
+	Last Update: 3-16-16
+	
+	This file was produced in the hopes of eliminating browser specific CSS rules, to create a blank slate for new development.
+	->Reset excludes "special" elements.
+*/
+
+html, body, div, p, br, header, footer, section, object, embed, iframe, h1, h2, h3, h4, h5, h6, pre, ol, ul, li, form, article, aside, nav, address, output, hr, main, noscript, fieldset, table, caption, tbody, tr, th, td, span, a{
+	margin: 0;
+	padding: 0;
+	border: none;
+	font: inherit;
+	vertical-align: baseline;
+	display: inline; /* In their most basic form, an element should be nothing more than it's content. */
+	text-decoration: none;
+	line-height: 1;
+	text-align: left;
+	font-weight: normal;
+	background-color: transparent;
+}
+html{
+	font-size: 12pt; /* Base font size (12pt, 16px, 100%), `pt` is more relatable to print. */
+	color: #000;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+:focus{
+ outline: 0;
+}
+:before, :after{
+	content: '';
+	content: none;
+}
+ol, ul, li, dl, dt, dd{
+	list-style: none;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}

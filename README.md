@@ -1,6 +1,7 @@
 # CSS Library
 
 The CSS Library I have put together includes 3 separate pieces: Reset, Common, Media
+-> An additional Media Extend file has been added.
 
 ##Basics
 
@@ -41,7 +42,8 @@ The CSS Library I have put together includes 3 separate pieces: Reset, Common, M
 
   **Media Extend**
 
-    This file is almost identical to the Media file but it extends beyond commonly used screen resolutions.
+    This file is almost identical to the media file but it extends beyond commonly used screen resolutions.
     -> It is not incorporated into the library or library-min files by default.
 
 Last Updated: 3-18-16
+By: James Bordine II

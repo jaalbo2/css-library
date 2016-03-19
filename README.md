@@ -12,7 +12,7 @@ The CSS Library I have put together includes 3 separate pieces: Reset, Common, M
 
     Also in the file names the *v* is the beginning of the version number. Generally there will only be one version
     number per file and the specific version number will be separated by a period. An example of this would be
-    "common-v1.1.css" where it is the first version of the common file with the first significant change made to
+    *common-v1.1.css* where it is the first version of the common file with the first significant change made to
     that version.
 
     It gets slightly more complicated in the library files however that incorporate several files and their versions

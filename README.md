@@ -7,7 +7,7 @@ The CSS Library I have put together includes 3 separate pieces: Reset, Common, M
  **Naming Convention**
 
     You may notice the crazy file names for the css library files. Generally speaking a hyphen (-) is used
-    to replace most spaces. For example the space in *library min (stands for minified)* is replaced resulting
+    to replace most spaces. For example the space in *library min* is replaced resulting
     in *library-min*.
 
     Also in the file names the *v* is the beginning of the version number. Generally there will only be one version

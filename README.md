@@ -10,13 +10,13 @@ The CSS Library I have put together includes 3 separate pieces: Reset, Common, M
     to replace most spaces. For example the space in *library min* is replaced resulting
     in *library-min*.
 
-    Also in the file names the *v* is the beginning of the version number. Generally there will only be one version
+    Also in the file names, the *v* is the beginning of the version number. Generally there will only be one version
     number per file and the specific version number will be separated by a period. An example of this would be
     *common-v1.1.css* where it is the first version of the common file with the first significant change made to
     that version.
 
-    It gets slightly more complicated in the library files however that incorporate several files and their versions
-    into only one file. In those cases the start of the versions is still identified by a *v* but then the versions
+    It gets slightly more complicated in the library files which incorporate several files and their versions
+    into one file. In those cases the start of the versions is still identified by a *v* but then the versions
     for each file are separated by a hyphen in order of: reset, common, media. So a library file may be named
     *library-v1-1-1* where the library incoporates the first version (without changes) of each of the three separate
     files.

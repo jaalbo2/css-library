@@ -46,4 +46,5 @@ The CSS Library I have put together includes 3 separate pieces: Reset, Common, M
     -> It is not incorporated into the library or library-min files by default.
 
 Last Updated: 3-18-16
+
 By: James Bordine II

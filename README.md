@@ -1,6 +1,7 @@
 # CSS Library
 
 The CSS Library I have put together includes 3 separate pieces: Reset, Common, Media
+
 -> An additional Media Extend file has been added.
 
 ##Basics

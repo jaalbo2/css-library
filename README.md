@@ -15,7 +15,7 @@ The CSS Library I have put together includes 3 separate pieces: Reset, Common, M
     seems to be for the best because ground-up styling for every project would just extend the styling phase
     (after incorporating the reset) rather than speed it up (or enhance it).
     
-    Some class styles are also added in the common file for quick *common* styling.
+    Some class styles are also added in the common file for quick styling.
     
   **Media**
     
